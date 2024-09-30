@@ -58,4 +58,10 @@ print(f"{word} world")
 
 print("\n\tSection 5")
 print(random.randrange(10))
+print(random.randrange(10))
+print(random.randrange(10))
+print(random.randrange(10))
+print(random.randrange(10))
+print(random.randrange(10))
+print(random.randrange(10))
 # this will get you a number 0-9. which is 10 numbers, but you will never get 10 unless you make the range an 11 instead

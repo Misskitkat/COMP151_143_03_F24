@@ -69,3 +69,55 @@ print(f"pokemon: {pokemon_list_2}")
 # you can manipulate one list without affecting the other one like this, when you set them equal
 # without [:] you are just pointing two variables to the same list of elements
 
+print("\n\tSection 5: INCLUDING LOOPS")
+chosen_pokemon = ["Lucario","Flygon", "Empoleon", "Luxray", "Corvknight"]
+for pkmn in chosen_pokemon:
+    print(pkmn)
+    # we can loop through the list element by element and print out each element
+print("\nOR THIS WAY\n")
+for i in range(len(chosen_pokemon)):
+    print(chosen_pokemon[i])
+    # doing the same thing as the loop above but going index by index instead of by element
+print("\nSAME THING\n")
+# this is also showing you how indents matter, the extra prints outside of the loop do not loop, only everything inside the loop repeats
+print("\n\tSection 6")
+grades = [4.0, 3.0, 4.0, 3.0, 2.0,]
+print(f'Grades for {len(grades)} classes:')
+for grade in grades:
+    print(f'The grade is: {grade}')
+
+print()
+for letter in "AEIOU":
+    print(letter)
+print("Vowels\n")
+# just like before how I said that a string is like a condensed list, you can loop through a string element by element
+
+print()
+for i in range(10):
+    print(i)
+print("starts at 0 and goes until 9\n")
+for i in range(2,9):
+    print(i)
+print("starts at 2 and cant go to 9\n")
+for i in range(0,11,2):
+    print(i)
+print("goes up to 10 by 2\n") # this is called stepping
+for i in range(0,10,2):
+    print(i)
+print("cannot go up to 10, still going by 2\n")
+print(range(5))
+print(type(range(5)))
+print(list(range(5)))
+
+print("\n\tSection 7")
+for i in range(3):
+    print("Go Bears!")
+    # this prints go bears 3 times
+print()
+mascot = "Bears"
+for i in range(3):
+    print(f"Go {mascot}!!!")
+    # shows another way to do this
+
+print()
+

@@ -121,3 +121,44 @@ for i in range(3):
 
 print()
 
+print("\n\tSection 8")
+number = 4
+for i in range(number):
+    print(i)
+    """ here we can see that it is going to print
+        0
+        1
+        2
+        3
+        and not 0 1 2 3 , there is a newline character at the end of each print statement"""
+print()
+count = 2
+count = count + 1
+for i in range(4):
+    print(count)
+    # we can see here how we can increment a number, just set it equal to itself with + 1
+print()
+for i in range(3):
+    print(i)
+    print("Blastoff!")
+    # here we can see that after every number blastoff is printed, which is not the most effective way to use a countdown
+print()
+# instead do this
+for i in range(5):
+    print(i)
+print("Blastoff!!!")
+# this way you are counting up to it instead of counting up and immediately saying it
+print()
+# what if you wanted to count down?
+for i in range(4):
+    print(3-i)
+print("Blastoff!!")
+# this counts down instead of counting up
+
+print()
+# there is a way to refactor this though
+number = 6
+for i in range(6):
+    print(number-1-i)
+print("Blastoff!!!!!")
+# this way we can use the same variable for both and then also change that variable instead of hard coding it in.

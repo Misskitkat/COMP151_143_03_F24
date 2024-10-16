@@ -7,6 +7,7 @@ In the console there is a little step over button if you have one or multiple br
 """
 
 print("\tSection 1")
+
 pokemon = ["Lucario","Flygon", "Empoleon", "Luxray", "Corvknight"]
 pokemon.reverse()
 print(pokemon)
@@ -20,7 +21,9 @@ print(pokemon)
 print(pokemon * 2)
 # creates a list of the same list and combines it that many times
 # try to predict these next few on your own before checking
+
 print("\n\tSection 2")
+
 print(pokemon[2])
 # grabs the element at that index and returns it
 print(pokemon[0:2])
@@ -38,6 +41,7 @@ print("Pokemon"[:-2])
 # the above 4 are the same as the list but with a string, a string is just a condensed list of chars or one element strings
 
 print("\n\tSection 3")
+
 number_list = [3,40,31,80,5]
 print(max(number_list))
 print(min(number_list))
@@ -49,6 +53,7 @@ characters_list = ['3', 'a', 'A', '0', '(', '7']
 print(max(characters_list))
 
 print("\n\tSection 4")
+
 print("Making copies of a list.")
 pokemon_list_2 = pokemon
 # why does this not work?
@@ -70,6 +75,7 @@ print(f"pokemon: {pokemon_list_2}")
 # without [:] you are just pointing two variables to the same list of elements
 
 print("\n\tSection 5: INCLUDING LOOPS")
+
 chosen_pokemon = ["Lucario","Flygon", "Empoleon", "Luxray", "Corvknight"]
 for pkmn in chosen_pokemon:
     print(pkmn)
@@ -110,6 +116,7 @@ print(type(range(5)))
 print(list(range(5)))
 
 print("\n\tSection 7")
+
 for i in range(3):
     print("Go Bears!")
     # this prints go bears 3 times
@@ -122,6 +129,7 @@ for i in range(3):
 print()
 
 print("\n\tSection 8")
+
 number = 4
 for i in range(number):
     print(i)

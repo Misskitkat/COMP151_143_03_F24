@@ -9,6 +9,7 @@ import random
 import math
 
 print("\tSection 1")
+
 pokemon = ["Lucario","Flygon", "Empoleon", "Luxray", "Corvknight"]
 print(type(pokemon))
 print(type(pokemon[1]))
@@ -19,12 +20,16 @@ print()
 print(sorted(pokemon))
 print(sorted(pokemon, reverse = True))
 print(pokemon)
+
 print("\n\tSection 2")
+
 number_list = [23,4,51,0,1]
 print(number_list)
 print(sorted(number_list))
 print(sorted(number_list, reverse = True))
+
 print("\n\tSection 3")
+
 print(pokemon[0])
 print(pokemon[1])
 print(pokemon[2])
@@ -33,7 +38,9 @@ print(pokemon[4])
 print(pokemon[-1])
 print(pokemon[-3])
 # showing what you can do to index, negatives start from the right side and count that left, does not start at 0
+
 print("\n\tSection 4")
+
 pokemon[1] = "Umbreon"
 pokemon[3] = "Absol"
 print(pokemon)
@@ -56,6 +63,7 @@ print(pokemon)
 
 
 print("\n\tSection 5")
+
 print(pokemon)
 print(pokemon[0])
 print(pokemon[1])

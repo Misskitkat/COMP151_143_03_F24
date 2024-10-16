@@ -10,6 +10,7 @@ import math
 import random
 
 print("\tSection 1")
+
 # to copy the Week 1 file
 a = 3
 b = 4
@@ -21,6 +22,7 @@ c = math.sqrt(c)
 print(f"Here we get: {c} like in week 1, just a different method")
 
 print("\n\tSection 2")
+
 print("Quadratic Formula!")
 a,b,c = 1,2,-1
 temp = b**2 - 4*a*c
@@ -35,6 +37,7 @@ print(root2)
 print(f"The values of x given the quadratic formula f(x) = {a}x^2 + {b}x + {c} are {root1} and {root2}.")
 
 print("\n\tSection 3")
+
 print(4*math.sqrt(64))
 print(math.pi)
 print(round(math.pi))
@@ -42,7 +45,8 @@ print(round(math.pi, 5))
 # other examples with the math library, it will print pi until 15 places for me
 print(9_001) # its over 9,000
 
-print("\n\tSection 3")
+print("\n\tSection 4")
+
 print("Trying out more // and %.")
 print(9//3)
 print(10//3)
@@ -60,7 +64,8 @@ print(13%3)
 print(24%3)
 # modulus takes the remainder of a division
 
-print("\n\tSection 4")
+print("\n\tSection 5")
+
 word = ""
 print(word)
 word = word + "a"
@@ -76,7 +81,8 @@ print(word.upper())
 print(word.title())
 print(word.lower())
 
-print("\n\tSection 5")
+print("\n\tSection 6")
+
 word_1 = "pocket    \t"
 word_2 = "\n    monsters"
 print(f"The first word {word_1} has trailing spaces.")

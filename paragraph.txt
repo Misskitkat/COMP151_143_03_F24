@@ -1,0 +1,6 @@
+This is a beginning course in programming, which introduces concepts of computer
+organization. Problem-solving methods and algorithmic development stressing good
+programming style and documentation including top down and modular design will be
+covered. This course emphasizes problem-solving with programming exercises run on the
+computer. Offered fall and spring semesters. This course is required in the computer
+science major.

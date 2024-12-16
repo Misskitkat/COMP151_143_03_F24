@@ -1,0 +1,1 @@
+The median of the provided list of numbers is: 5.0

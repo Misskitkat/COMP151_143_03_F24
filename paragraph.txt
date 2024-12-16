@@ -1,3 +1,4 @@
+COMP 151 Description
 This is a beginning course in programming, which introduces concepts of computer
 organization. Problem-solving methods and algorithmic development stressing good
 programming style and documentation including top down and modular design will be
